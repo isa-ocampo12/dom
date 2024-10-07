@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./view/public/css/style.css">
+    <title>DOM</title>
+</head>
+<body>
+    <form class="form" action="">
+        <div>
+            <label for="">Usuario</label>
+             <input id="usuario" type="text">   
+        </div>
+        <div>
+            <label for="">Contraseña</label>
+            <input  id="contraseña" type="text">
+        </div>
+        <button onclick="iniciarSesion()" type="button">Iniciar sesion</button>
+
+    </form>
+
+    <!-- type="module" para poder trabajar con modulos y html lo reconozca -->
+    <script type="module" src="./view/public/js/script.js"></script>
+    <script src="./view/public/js/validaciones.js"></script>
+</body>
+</html>

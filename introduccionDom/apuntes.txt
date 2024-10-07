@@ -1,0 +1,31 @@
+// SELECTORES
+
+getElement: 
+- getElementById --> Selecciona elemento por id
+EJE
+    console.log(document.getElementById("usuario")) -->Solo muestra un elemento
+
+- getElementByClassName --> selecciona elemento por clase
+EJE
+    console.log(document.getElementsByClassName("form"))
+
+- getElementByTagName --> selecciona elemento por nombre de etiqueta
+EJE
+    console.log(document.getElementsByTagName("form"))  --> Siempre muestra un arreglo
+
+
+querySelector:
+- query Selector --> Seleccionar por id, clase y etiqueta
+EJE
+    console.log(document.querySelector("form")) --> Solo trae el primero
+
+- querySelectorAll --> Seleccionar por id, clase y etiqueta
+EJE
+    console.log(document.querySelectorAll("form")) --> Trae todo
+
+//EVENTOS PREDETERMINADOS
+MOUSE --> click, doble click, ingreso del mouse, salida del mouse, scroll (el scroll es un poco diferente, requiere coordenadas)
+          onclick, onblclick, onmouseenter,     onmouseout
+
+
+MODULOS --> Importacion y exportacion de contenido entre archivos js

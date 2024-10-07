@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh; /*View por heigth-> vista por alto o tambien "vw" -> vista por ancho*/
+    background-image: url(../img/receta.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+    height: 40%;
+    display: inherit; /*Hereda lo del display: flex -> para no utilizar tanto display:flex (TOMA EL VALOR DEL PADRE)*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(5px); /*Distorcion transparente, dependiendo los pixeles es la transparecia*/
+}
+
+.form div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.form div label{
+    color: white;
+    letter-spacing: 2px;
+}
+.form div input{
+    outline: none; 
+    height: 30px;
+    border-radius: 10px;
+    /* text-transform: uppercase; para que todo texto ingreasado lo convierta en mayusculas */
+}
+.form button{
+    width: 40%;
+    margin-top: 20px;
+    background-color: white;
+    height: 35px;
+    border: none;
+    border-radius: 10px;    
+}
